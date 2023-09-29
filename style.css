@@ -267,3 +267,10 @@ svg:hover {
 .twitt:hover {
     box-shadow: inset -2px -2px 3px #ffffff, inset 2px 2px 3px #ceced1;
 }
+
+.a-test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
