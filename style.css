@@ -268,9 +268,78 @@ svg:hover {
     box-shadow: inset -2px -2px 3px #ffffff, inset 2px 2px 3px #ceced1;
 }
 
-.a-test{
+.a-test {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+
+.port-card {
+    height: 380px;
+    width: 100%;
+    background: #EEF5FF;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 15px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgb(212, 212, 212);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+.render-card {
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #949494;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.render-card p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #EEF5FF;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 3px;
+}
+
+
+.view-btn {
+    height: 20px;
+    width: 45px;
+    position: absolute;
+    background: #EEF5FF;
+    display: none;
+}
+
+.work-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15;
+}
+
+.render-card:hover .view-btn {
+    display: block;
+
 }
