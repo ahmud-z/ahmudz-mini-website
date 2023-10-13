@@ -253,7 +253,7 @@ h3 {
 .love svg:hover {
 
     fill: red;
-    stroke: white;
+    stroke: none;
     cursor: pointer;
 }
 
@@ -303,7 +303,7 @@ svg:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    background: #949494;
+    background: #000000;
     overflow: hidden;
     border-radius: 4px;
 }
@@ -342,4 +342,16 @@ a {
 .render-card:hover .view-btn {
     display: block;
 
+}
+
+
+.img-small{
+    height: 110px;
+}
+
+.portfolio-header {
+    height: 20px;
+    width: 100%;
+    margin-top: 8px;
+    display: flex;
 }
