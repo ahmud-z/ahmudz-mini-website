@@ -292,6 +292,7 @@ svg:hover {
     margin-top: 5px;
     overflow: hidden;
     overflow-y: scroll;
+    padding-bottom: 10px;
 
 }
 
